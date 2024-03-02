@@ -1,0 +1,124 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+/* body{
+    background: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+} */
+.header{
+    display:flex;
+    margin:0px;
+    padding: 0px;
+    background-color: darkslategray;
+    justify-content: space-between;
+    /* border:2px solid rgb(202, 224, 7); */
+}
+.logo{
+    margin-top: 5px;
+     margin-left: 20px;
+     width:90px;
+     border-radius: 40px;
+    /* padding:5px; */
+    /* opacity: 0.5;  */
+}
+.nav-items{
+    display:flex;
+    align-items: center; 
+    /* opacity: 0.5;   */
+}
+.nav-items>ul{
+    display:flex;width:500px;
+    /* border:1px solid rgb(31, 241, 12); */
+    justify-content: space-around;
+    /* align-items: center;    */
+}
+.nav-items >ul >li{
+     /* padding:10px; */
+     font-size: 20px;
+     list-style-type: none;
+     color:white;
+     opacity: 1;
+     cursor: pointer;
+     /* border: 2px solid black;
+     background-color: black;
+     border-radius:12px; */
+     /* margin:20px; */
+}
+.nav-items>ul>li:hover{
+    /* background-color: black; */
+    opacity:0.5;
+}
+
+
+   
+
+.restocard{
+    height: 300px;
+    width: 256px;
+   
+    /* background-color:#ec0b3c; */
+    padding:5px;
+    margin:5px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 20px;
+    cursor:pointer;
+    /* background-color: #ad9e40; */
+}
+.restocard:hover
+{
+    border:1px solid black;
+}
+
+.search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    padding:10px;
+}
+.input{
+    border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom:0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:20px;
+    /* margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em;  */
+    width:500px; 
+}
+.imglogo{
+    width:100%;
+    height:50%;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+}
+.res-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:1200px;
+    margin:0px auto;
+}
+.offer{
+    color:red;
+}
+.location{
+    color:darkblue;
+}
+.cuisines{
+    /* display:flex;
+    flex-direction: column; */
+    font-size:small;
+    color:orange;
+    padding:5px;
+    margin:0px auto;
+}
